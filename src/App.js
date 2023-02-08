@@ -1,14 +1,14 @@
-import React, { Fragment }from 'react';
-import GlobalStyle from './global';
-import { Home } from './pages/home';
+import React, { Fragment } from 'react'
+import GlobalStyle from './global'
+import { Home } from './pages/home'
 
 function App() {
   return (
     <Fragment>
-        <GlobalStyle/>
-        <Home/>
+      <GlobalStyle />
+      <Home />
     </Fragment>
   )
 }
 
-export default App;
+export default App
